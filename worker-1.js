@@ -1,6 +1,7 @@
 const amqp = require('amqplib/callback_api')
 
-const CONN_URL = 'amqp://mxwkybqp:XAQLs_b7miB8S4NRXahnx5IXb3qL7h6h@mosquito.rmq.cloudamqp.com/mxwkybqp';
+require('dotenv').config()
+const CONN_URL = process.env.RABBITMQ_CONN_URL;
 
 
 amqp.connect(CONN_URL, function (err, conn) {
