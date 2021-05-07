@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.3",
     "morgan": "^1.9.1",
-    "underscore": "^1.9.2"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
